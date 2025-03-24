@@ -1,0 +1,20 @@
+name: bio-project-new
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # Recommended stable version
+  # Core packages
+  - numpy=1.26.4  
+  - pandas=1.4.0
+  - scikit-learn=1.6.1
+  - scipy=1.13.1
+  # Streamlit and dependencies
+  - streamlit=1.41.0
+  - click=7.1.2
+  # Additional requirements
+  - protobuf=3.20.3
+  - joblib=1.4.2
+  - threadpoolctl=3.6.0
+  - pip:
+    - base58==2.0.1  
