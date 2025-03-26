@@ -43,6 +43,7 @@
 
 Τέλος, ανέπτυξα μια εφαρμογή Streamlit σε μορφή web app, όπου ένας χρήστης μπορεί να ανεβάσει ένα αρχείο .txt με SMILES σημειογραφία που διαθέτει. Η εφαρμογή χρησιμοποιεί το εκπαιδευμένο μοντέλο μηχανικής μάθησης για να προβλέψει και να υπολογίσει τις βιοδραστικότητες των ενώσεων που περιλαμβάνονται στο αρχείο. Έτσι, η εφαρμογή μπορεί να χρησιμοποιηθεί για τον γρήγορο έλεγχο νέων μορίων και την αξιολόγηση της πιθανής δραστικότητάς τους.
 
+# Το web-app μπορεί να δοκιμαστεί από [εδώ](https://bio-thesis.streamlit.app/). 
 # Reproducing this web app
 To recreate this web app on your own computer, do the following:
 ```
@@ -58,23 +59,6 @@ Secondly, we will login to the *bioactivity* environement
 ```
 conda activate bioactivity
 ```
-### Install prerequisite libraries
-
-Download requirements.txt file
-
-```
-wget https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/requirements.txt
-
-```
-
-Pip install libraries
-```
-pip install -r requirements.txt
-```
-
-###  Download and unzip contents from GitHub repo
-
-Download and unzip contents from https://github.com/dataprofessor/bioactivity-prediction-app/archive/main.zip
 
 ### Generating the PKL file
 
